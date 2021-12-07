@@ -1,5 +1,7 @@
-def month_days(month,days):
-    print (month + " has " + str(days)+" days.")
+def username_check(username):
+    if len(username) < 3 :
+      print ("Check Usermane")
+    elif len(username):
+        print("Devam")
 
-month_days("June",21)
-month_days("July",31)
+username_check("Aziz")
